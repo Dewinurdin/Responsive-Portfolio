@@ -225,6 +225,7 @@ input[type=submit] {
 
 
 /* Large devices (desktops) */
+<<<<<<< HEAD
 @media only screen and (max-width: 980px) {
 		.container {
 			padding: 0 20px;
@@ -298,4 +299,58 @@ input[type=submit] {
 		padding-left: 0;
 		margin-left: 0;
 	}
+=======
+@media screen and (max-width: 980px) {
+
+		#maincontainer {
+	 		width: 100%;
+	 		padding: 30px;
+	 	}
+
+	 	#mainheader {
+	 		width: 100%;
+	 	}
+
+	 	.main-section, 
+	 	.sidebar {
+	 		width: 100%; }
+}
+
+/* Medium devices (tablet) */
+@media screen 
+		and (max-width: 768px) {
+			
+		#maincontainer {
+	 		width: 100%;
+	 	}
+
+	 	#mainheader {
+	 		width: 100%;
+	 	}
+
+	 	.main-section, 
+	 	.sidebar {
+	 		width: 100%; }
+}
+
+/* Small device */
+@media screen 
+		and (max-width: 640px)
+		and (orientation: landscape){
+
+	 	#maincontainer {
+	 		width: 100%;
+	 		padding: 30px;
+	 	}
+
+	 	#mainheader {
+	 		width: 100%;
+	 		position: static;
+
+	 	}
+
+	 	.main-section, 
+	 	.sidebar {
+	 		width: 100%; }
+>>>>>>> d4745635532dfd8c285df222ed8a53dba937d8b7
 }
